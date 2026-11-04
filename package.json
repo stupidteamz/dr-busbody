@@ -1,0 +1,8 @@
+{
+  "name": "dr-busbody",
+  "version": "1.0.0",
+  "description": "ระบบใบเสนอราคา ใบวางบิล ใบเสร็จรับเงิน - ห้างหุ้นส่วนจำกัด ดีอาร์.บัสบอดี้",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
