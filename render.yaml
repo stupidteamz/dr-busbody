@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: dr-busbody
+    runtime: node
+    plan: free
+    buildCommand: ""
+    startCommand: node server.js
+    envVars:
+      - key: COOKIE_SECURE
+        value: "1"
